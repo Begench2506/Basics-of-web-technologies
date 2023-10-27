@@ -1,0 +1,338 @@
+body {
+	margin: 0;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.container {
+	margin: 0px 0px;
+}
+
+.header {
+	background-image: url(../images/siteback.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header_line {
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav_item {
+	font-family: 'Cormorant', serif;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 25px;
+	margin-right: 50px;
+
+	transition: color 0.3s linear;
+}
+
+.nav_item:hover {
+	color: #e02ca2;
+}
+
+.nav_item span {
+	color: #e02ca2;
+}
+
+.header_logo {
+	margin-left: 5px;
+}
+
+.cart {
+	position: relative;
+	border-right: 1px solid #FFFFFF;
+	padding-right: 5px;
+	height: 50px;
+}
+
+.cart_image {
+position: absolute;
+top: 7.5px;
+right: 15px;
+}
+
+.num {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	transition: color 0.3s linear;
+}
+
+.num:hover {
+
+	color: #e02ca2;
+}
+
+.phone_text {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.phone_holder {
+	display: flex;
+	 align-items: center;
+}
+
+.phone {
+	margin-left: 10px;
+	align-items: center;
+}
+
+.btn {
+	background-color: #e02ca2;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
+
+	transition: color 0.3s linear;
+	transition: background-color 0.3s linear;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #e02ca2;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
+}
+
+.header_down {
+	position: relative;
+}
+
+.header_title {
+	font-family: 'Cormorant', serif;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 230px;
+
+}
+
+.header_subtitle {
+	color: #e02ca2;
+	font-weight: 700;
+	font-size: 60px;
+}
+
+.moto {
+
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: 10px;
+	
+}
+
+.cards_holder {
+	display: flex;
+	justify-content: center;
+}
+
+.card_1 {
+	width: 300px;
+	margin-right: 15px;
+	margin-left: 15px;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	background-color: #fff;
+	margin-top: -150px;
+	height: 300px;
+
+}
+
+.card_1_image {
+	padding-top: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+.card_1_title {
+	font-family: 'Cormorant', serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	
+}
+
+.card_1_description {
+	font-size: 16px;
+	color: #656363;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+	margin-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.card_2 {
+	width: 300px;
+	margin-right: 15px;
+	margin-left: 15px;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	background-color: #fff;
+	margin-top: -150px;
+	height: 300px;
+}
+
+.card_2_image {
+	padding-top: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+.card_2_title {
+	font-family: 'Cormorant', serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.card_2_description {
+	font-size: 16px;
+	color: #656363;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+	margin-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.card_3 {
+	width: 300px;
+	margin-right: 15px;
+	margin-left: 15px;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	background-color: #fff;
+	margin-top: -150px;
+	height: 300px;
+}
+
+.card_3_image {
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+}
+
+.card_3_title {
+	font-family: 'Cormorant', serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.card_3_description {
+	font-size: 16px;
+	color: #656363;
+	text-align: center;	
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+	margin-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.main_page {
+
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+.main_title {
+	font-family: 'Cormorant', serif;
+	color: #e02ca2;
+	font-weight: 700;
+	font-size: 60px;
+	width: 600px;
+	text-align: left;
+}
+
+.main_description {
+	color: #656363;
+	font-size: 20px;
+	width: 600px;
+	text-align: inherit;
+	margin-top: 20px;
+}
+
+.main_numbers {
+	font-family: 'Cormorant', serif;
+	font-weight: 700;
+	display: flex;
+	width: 600px;
+	align-items: center;
+	margin-top: 40px;
+	font-size: 40px;
+}
+
+.number_1 {
+	margin-right: 60px;
+	text-align: center;
+	color: #e02ca2;
+}
+
+.number_1 span {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 20px;
+	display: block;
+	color: #000;
+}
+
+.number_2 {
+	margin-right: 60px;
+	text-align: center;
+	color: #e02ca2;
+}
+
+.number_2 span {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 20px;
+	display: block;
+	color: #000;
+}
+
+.number_3 {
+	margin-right: 60px;
+	text-align: center;
+	color: #e02ca2;
+}
+
+.number_3 span {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 20px;
+	display: block;
+	color: #000;
+}
+
+.main_holder {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.clinic_img {
+	width: auto;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+}

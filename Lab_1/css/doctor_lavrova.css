@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.container {
+	margin: 0px 0px;
+}
+
+.header {
+	background-image: url(../images/siteback.jpg);
+	height: 25vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header_line {
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav_item {
+	font-family: 'Cormorant', serif;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 25px;
+	margin-right: 50px;
+
+	transition: color 0.3s linear;
+}
+
+.nav_item:hover {
+	color: #e02ca2;
+}
+.nav_item span {
+	color: #e02ca2;
+}
+
+.header_logo {
+	margin-left: 5px;
+}
+.cart {
+	position: relative;
+	border-right: 1px solid #FFFFFF;
+	padding-right: 5px;
+	height: 50px;
+}
+
+.cart_image {
+position: absolute;
+top: 7.5px;
+right: 15px;
+}
+
+.num {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	transition: color 0.3s linear;
+}
+
+.num:hover {
+
+	color: #e02ca2;
+}
+
+.phone_text {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.phone_holder {
+	display: flex;
+	 align-items: center;
+}
+
+.phone {
+	margin-left: 10px;
+	align-items: center;
+}
+
+.btn {
+	background-color: #e02ca2;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
+
+	transition: color 0.3s linear;
+	transition: background-color 0.3s linear;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #e02ca2;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
+}
+.main_page {
+
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.main_title {
+	font-family: 'Cormorant', serif;
+	color: #000;
+	font-weight: 500;
+	font-size: 60px;
+	width: 600px;
+	text-align: center;
+	margin-left: 200px;
+}
+
+.main_description {
+	color: #656363;
+	font-size: 20px;
+	width: 600px;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+.main_holder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.doctor_1_img {
+	height: 400px;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	margin-right: 250px;
+}
+.list_marker {
+	margin-bottom: 15px;
+}
+.btn_1{
+	background-color: #e02ca2;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
+    margin-top: 15px;
+	transition: color 0.3s linear;
+	transition: background-color 0.3s linear;
+}
+.btn_1:hover {
+	background-color: #fff;
+	color: #e02ca2;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
