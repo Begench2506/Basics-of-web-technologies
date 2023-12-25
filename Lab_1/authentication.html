@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+	<meta charset="utf-8">
+	<title>M O L E C U L A</title>
+	<link rel="shortcut icon" href="images/logo_title.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/authentication.css">
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var passwordInput = document.getElementById('form_pass');
+        var eyeButton = document.getElementById('eyeButton'); // Обновленный идентификатор
+
+        eyeButton.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                eyeButton.classList.add('textVisible');
+                eyeButton.classList.remove('passwordVisible');
+            } else {
+                passwordInput.type = 'password';
+                eyeButton.classList.add('passwordVisible');
+                eyeButton.classList.remove('textVisible');
+            }
+        });
+    });
+</script>
+
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="form">
+	<div class="auth_form_body">
+		<form class="auth_form" method="post" action="https://www.httpbin.org/post" enctype="multipart/form-data">
+
+
+
+			<div class="auth_form_close">
+
+				<a href="index.html">
+					<img src="images/close.png" height="30px">
+				</a>
+				
+			</div>
+
+			<div class="auth_form_title">
+				Форма аутентификации
+			</div>
+
+			<div class="auth_form_group">
+				<input class="auth_form_input" type="text" placeholder=" " name="username" id="username">
+				<label for="username" class="auth_form_label">Логин</label>
+			</div>
+
+			<div class="auth_form_group">
+				<input class="auth_form_input" type="password" placeholder=" " id="form_pass" name="form_pass">
+				<label for="form_pass" class="auth_form_label">Пароль</label>
+				<button id="eyeButton" class="eye_button"><img src="images/eye.png" height="35px"></button>
+			</div>
+
+			<div class="auth_form_group">
+				<label class="label_checkbox">
+					<input type="checkbox" class="input_checkbox">
+					<span class="span_fake_checkbox"></span>
+					<span class="span_checkbox">Запомнить меня</span>
+				</label>
+			</div>
+
+			<div class="button" >
+		
+		       <button type="submit" class="auth_form_button"> Войти
+		       </button>
+		
+		    </div>
+			
+		</form>
+	</div>
+	</div>
+	
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  display: none;
+}
+
+@media print {
+  body {
+    display: block;
+  }
+
+  .header,
+  .footer,
+  .button,
+  .popup,
+  .doctor_consultation_form,
+  .popup_2,
+  .popup_3,
+  .back,
+  .button_1 {
+    display: none;
+  }
+
+  .container {
+    margin: 0;
+  }
+}

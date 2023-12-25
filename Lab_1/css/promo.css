@@ -1,0 +1,394 @@
+body {
+	margin: 0;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.container {
+	margin: 0px 0px;
+}
+
+.header {
+	background-image: url(../images/siteback.jpg);
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header_line {
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav_item {
+	font-family: 'Cormorant', serif;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 25px;
+	margin-right: 50px;
+
+	transition: color 0.3s linear;
+}
+
+.nav_item:hover {
+	color: #e02ca2;
+}
+.nav_item span {
+	color: #e02ca2;
+}
+
+.header_logo {
+	margin-left: 5px;
+}
+.profile {
+		position: relative;
+		border-right: 1px solid #FFFFFF;
+		padding-right: 5px;
+		height: 50px;
+	}
+
+	.helpdesk {
+		position: absolute;
+		top: 7.5px;
+	   left: 20px;
+	}
+
+	.profile_image {
+	position: absolute;
+	top: 7.5px;
+	right: 15px;
+	}
+
+.num {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	transition: color 0.3s linear;
+}
+
+.num:hover {
+
+	color: #e02ca2;
+}
+
+.phone_text {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.phone_holder {
+	display: flex;
+	 align-items: center;
+}
+
+.phone {
+	margin-left: 10px;
+	align-items: center;
+}
+
+.btn {
+	background-color: #e02ca2;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
+	transition: color 0.3s linear;
+	transition: background-color 0.3s linear;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #e02ca2;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-weight: 700;
+}
+.header_down {
+	position: relative;
+}
+
+.header_title {
+	font-family: 'Cormorant', serif;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.header_subtitle {
+	color: #e02ca2;
+	font-weight: 700;
+	font-size: 60px;
+}
+
+.moto {
+
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: 10px;
+	
+}
+
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.popup:target{
+	opacity: 1;
+	visibility: visible;
+}
+ 
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.popup_content{
+border-radius: 10px;
+background-color: #fff;
+color: #000;
+max-width: 800px;
+padding: 30px;
+position: relative;
+}
+
+.popup_close {
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+.popup_title {
+     font-size: 40px;
+     font-family:'Cormorant', serif;
+     font-weight: 700;
+     margin-bottom: 20px;
+     color: #e02ca2;
+     text-align: center;
+}
+
+.popup_text {
+    color: #656363;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.consultation_form {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+
+}
+.consultation_form:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+.popup_2_body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
+}
+
+.form_1 {
+	width: 600px;
+	padding: 30px;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	background-color: #fff;
+	position: relative;
+}
+
+.popup_2_close {
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+.form_1_title {
+	 font-size: 40px;
+     font-family:'Cormorant', serif;
+     font-weight: 700;
+     margin-bottom: 20px;
+     color: #e02ca2;
+     text-align: center;
+}
+
+.form_input {
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Comfortaa', sans-serif;
+	width: 100%;
+	padding-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #656363;
+	background-color: transparent;
+	outline: none;
+	transition: 0.3s;
+	z-index: 1;
+}
+
+.form_input:focus {
+	border-bottom: 1px solid #e02ca2;
+}
+
+.button_2 {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.form_button {
+	text-align: center;
+	align-items: center;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Comfortaa', sans-serif;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #e02ca2;
+	padding: 10px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.form_button:hover,
+.form_button:focus {
+	
+	background-color: #fff;
+	color: #e02ca2 ;
+}
+
+.form_group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.form_label {
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Comfortaa', sans-serif;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	color: #656363;
+	transition: 0.3s;
+}
+
+.form_input:focus ~ .form_label,
+.form_input:not(:placeholder-shown) ~ .form_label {
+	top: -18px;
+	font-size: 12px;
+	color: #e0e0e0 ;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Cormorant', serif;
+		color: #151635;
+		font-size: 35px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+}
+
+.actual{
+	text-align: center;
+	color:  #08486c;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 35px;
+
+}
+
+.how_to_use{
+	ext-align: center;
+	color:  #e02ca2;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 35px;
+}
+
+h5{
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 18px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+
+li{
+	text-align: left;
+	color: #3d45b7;
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Cormorant', serif;
+	font-size: 35px;
+	font-weight: 700;
+
+}
+
+.marks{
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 18px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #000;	
+
+}
+.end{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.footer {
+		background-image: url(../images/footer.jpg);
+		height: 15vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
+	.copy {
+	    position: absolute;
+	    color: #fff;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    font-family: 'Cormorant', serif;
+		color: #fff;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 25px;
+	}

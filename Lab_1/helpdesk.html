@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+	<meta charset="utf-8">
+	<title>M O L E C U L A</title>
+	<link rel="shortcut icon" href="images/logo_title.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/helpdesk.css">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="form">
+	<div class="hd_form_body">
+		<form class="hd_form" method="post" action="https://www.httpbin.org/post" enctype="multipart/form-data">
+
+
+
+			<div class="hd_form_close">
+
+				<a href="index.html">
+					<img src="images/close.png" height="30px">
+				</a>
+				
+			</div>
+
+			<div class="hd_form_title">
+				Форма обратной
+			</div>
+
+			<div class="hd_form_group">
+				<input class="hd_form_input" type="text" placeholder=" " name="username" id="username">
+				<label for="username" class="hd_form_label">Логин</label>
+			</div>
+
+			<div class="hd_form_group">
+				<input class="hd_form_input" type="email" placeholder=" " name="email" id="email">
+				<label for="username" class="hd_form_label">Email</label>
+			</div>
+
+            <div class="hd_form_group">
+			 <div class="radio_title">
+
+            	Откуда о нас узнали?
+            	
+            </div>
+
+        </div>
+
+			
+
+            <div class="hd_form_group">
+            
+                <label class="label_radio">
+                    <input type="radio" class="input_radio" name="radio_group">
+                    <span class="span_fake_radio"></span>
+                    <span>Интернет</span>
+                </label>
+            
+                <label class="label_radio">
+                    <input type="radio" class="input_radio" name="radio_group">
+                    <span class="span_fake_radio"></span>
+                    <span>Телевидение</span>            
+                </label>
+            </div>
+            
+            <div class="hd_form_group">
+            <div class="selector">
+
+            	<label for="select_category" class="label_select_category">Тип обращения</label>
+            	<select name="select_category" id="select_category" class="select_category">
+
+            		<option value="1">Жалоба</option>
+            		<option value="2">Предложение</option>
+
+            		
+            	</select>
+            </div>
+            	
+            </div>
+
+            <div class="comment_title">
+
+            	Напишите свой комментарий
+            	
+            </div>
+
+            <div class="hd_form_group">
+            	<label for="hd_form_comment"></label>
+            	<textarea class="hd_form_comment"></textarea>
+            </div>
+
+            <div class="hd_form_group">
+            	<input type="file" name="add_file" class="add_file">
+            </div>
+
+			
+			<div class="hd_form_group">
+				<label class="label_checkbox">
+					<input type="checkbox" class="input_checkbox">
+					<span class="span_fake_checkbox"></span>
+					<span class="span_checkbox">Даю согласие на обработку ПД</span>
+				</label>
+			</div>
+
+			
+
+			<div class="button" >
+		
+		       <button type="submit" class="hd_form_button"> Отправить
+		       </button>
+		
+		    </div>
+			
+		</form>
+	</div>
+	</div>
+	
+</div>
+	
+</body>
+</html>
