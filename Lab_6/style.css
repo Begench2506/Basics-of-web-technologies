@@ -1,0 +1,57 @@
+body {
+    font-family: 'PT Sans' sans-serif;
+    font-size: 1.25rem;
+}
+
+.content-1 {
+    background-color: rgb(204, 54, 170);
+    border-radius: 15px;
+}
+
+.content-2 {
+    background-color: rgb(67, 17, 167);
+    border-radius: 15px;
+}
+
+.content-3 {
+    background-color: rgb(150, 13, 221);
+    border-radius: 15px;
+}
+
+.content-pr {
+    background-color: rgb(150, 13, 221);
+    border-radius: 15px;
+    width: 150px;
+}
+
+.container-pr {
+    background-color: rgb(23, 28, 57);
+}
+
+.course-enrol {
+    background-color: rgb(23, 28, 57);
+}
+
+.course-enrol-form {
+    background-color: whitesmoke;
+}
+
+.rounded{
+    margin: 30px 0px 0px 0px;
+}
+
+.row{
+    margin: 0px 5px 30px 15px;
+}
+
+form {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(23, 28, 57);
+}
+
+h5{
+    padding-top: 10px;
+}
